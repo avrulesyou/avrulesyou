@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=220&section=header&text=Abhishek%20Vishwakarma&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%20Infrastructure%20%7C%20Blockchain%20%7C%20Distributed%20Systems&descAlignY=58&descSize=18" alt="Abhishek Vishwakarma — AI Infrastructure, Blockchain, Distributed Systems">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=220&section=header&text=Abhishek%20Vishwakarma&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Engineering%20%7C%20Blockchain%20%7C%20AI%20Applications&descAlignY=58&descSize=18" alt="Abhishek Vishwakarma — Full-Stack Engineering, Blockchain, AI Applications">
 
-### AI Infrastructure Engineer building reliable systems across AI, finance, and blockchain
+### Full-Stack Engineer building reliable systems across AI, finance, and blockchain
 
 I design and ship practical software with a focus on clear systems, thoughtful user experiences, and production-minded engineering. My work spans **federal AI orchestration**, **institutional blockchain infrastructure**, and **full-stack financial systems**.
 
@@ -19,7 +19,7 @@ I design and ship practical software with a focus on clear systems, thoughtful u
 </div>
 
 <p align="center">
-  <strong>AI Infrastructure Engineer building production systems where intelligent software meets verifiable, decentralized infrastructure.</strong>
+  <strong>Full-Stack Engineer building production systems across blockchain, cloud, and AI-powered applications.</strong>
 </p>
 
 <p align="center">
@@ -35,11 +35,11 @@ I design and ship practical software with a focus on clear systems, thoughtful u
 
 ## About me
 
-I am an **AI Infrastructure Engineer with 6+ years of experience** designing and shipping production systems across blockchain, cloud platforms, and federal AI. I currently lead AI infrastructure development for **federal government programs** at REI Systems.
+I am a **Full-Stack Engineer with 6+ years of experience** designing and shipping production systems across blockchain, cloud platforms, and AI applications. I currently work as an AI Engineer on **federal government programs** at REI Systems.
 
 My engineering focus:
 
-- **AI infrastructure:** LLM applications, generative AI, machine-learning pipelines, model training, evaluation, and governance
+- **AI applications:** LLM applications, generative AI, machine-learning pipelines, model training, evaluation, and governance
 - **Blockchain systems:** Ethereum staking, Solana, XRP Ledger, smart contracts, validator infrastructure, and protocol integrations
 - **Distributed backends:** Go, Rust, Python, TypeScript, microservices, gRPC, REST, GraphQL, Kafka, and RabbitMQ
 - **Cloud delivery:** AWS, GCP, Azure, Docker, Kubernetes, Terraform, and GitHub Actions
@@ -62,7 +62,7 @@ My engineering focus:
 <details open>
 <summary><strong>REI Systems · AI Engineer</strong> — Apr 2026–Present</summary>
 
-Leading **AI infrastructure development for federal government programs**, building secure orchestration capabilities that help agencies adopt, govern, and operate AI systems responsibly at scale.
+Working on **AI engineering for federal government programs**, helping build secure capabilities for agency adoption, governance, and responsible use of AI systems.
 
 </details>
 
@@ -206,7 +206,7 @@ Keep learning at the edge of AI and decentralized infrastructure.
 
 ## Let's connect
 
-I am open to conversations about **AI infrastructure, developer platforms, blockchain systems, smart-contract security, and senior full-stack engineering**.
+I am open to conversations about **full-stack engineering, AI applications, developer platforms, blockchain systems, and smart-contract security**.
 
 <div align="center">
 
