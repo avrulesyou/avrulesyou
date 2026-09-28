@@ -1,74 +1,222 @@
 <div align="center">
 
-# Abhishek Vishwakarma
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=220&section=header&text=Abhishek%20Vishwakarma&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%20Infrastructure%20%7C%20Blockchain%20%7C%20Distributed%20Systems&descAlignY=58&descSize=18" alt="Abhishek Vishwakarma — AI Infrastructure, Blockchain, Distributed Systems">
 
-### Full-stack engineer building reliable products across AI, Finance and blockchain
+### AI Infrastructure Engineer building reliable systems across AI, finance, and blockchain
 
-I design and ship practical software with a focus on clear systems, thoughtful user experiences, and production-minded engineering. My current interests sit at the intersection of **AI-enabled products**, **developer tools**, and **trustworthy on-chain infrastructure**.
+I design and ship practical software with a focus on clear systems, thoughtful user experiences, and production-minded engineering. My work spans **federal AI orchestration**, **institutional blockchain infrastructure**, and **full-stack financial systems**.
 
 [![GitHub followers](https://img.shields.io/github/followers/avrulesyou?label=Followers&style=flat-square&logo=github)](https://github.com/avrulesyou?tab=followers)
 [![Public repositories](https://img.shields.io/github/repos/avrulesyou?label=Public%20repositories&style=flat-square&logo=github)](https://github.com/avrulesyou?tab=repositories)
 [![Profile views](https://komarev.com/ghpvc/?username=avrulesyou&style=flat-square&color=2563eb)](https://github.com/avrulesyou)
 
-[View my repositories](https://github.com/avrulesyou?tab=repositories) · [Email me](mailto:abhishekvishwakarma@gmail.com)
+[View my repositories](https://github.com/avrulesyou?tab=repositories) · [Email me](mailto:createwithav@gmail.com)
+
+<a href="https://github.com/avrulesyou"><img src="https://img.shields.io/badge/GitHub-avrulesyou-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/ritetoav/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://impactstake.com/"><img src="https://img.shields.io/badge/ImpactStake-Explore-7C3AED?style=for-the-badge&logo=ethereum&logoColor=white" alt="ImpactStake"></a>
 
 </div>
+
+<p align="center">
+  <strong>AI Infrastructure Engineer building production systems where intelligent software meets verifiable, decentralized infrastructure.</strong>
+</p>
+
+<p align="center">
+  I build reliable platforms across federal AI, Ethereum, Solana, XRP Ledger, cloud infrastructure, and full-stack product engineering.
+</p>
+
+<p align="center">
+  <a href="mailto:createwithav@gmail.com">createwithav@gmail.com</a>
+  · Glendale, Arizona
+</p>
 
 ---
 
-## What I bring
+## About me
 
-- **Product-minded full-stack development:** turning ambiguous ideas into usable, maintainable applications.
-- **Backend and distributed systems:** APIs, event-driven workflows, data modeling, observability, and operational safeguards.
-- **AI product engineering:** integrating intelligent workflows into real applications with attention to evaluation, privacy, and user control.
-- **Blockchain and cryptoeconomic systems:** exploring verifiable data, incentives, wallets, and on-chain primitives with a security-first mindset.
-- **Engineering communication:** making architecture, trade-offs, and implementation details easy for teammates to understand.
+I am an **AI Infrastructure Engineer with 6+ years of experience** designing and shipping production systems across blockchain, cloud platforms, and federal AI. I currently lead AI infrastructure development for **GovOrch AI**, REI Systems' federal government AI orchestration platform.
 
-## Selected work
+My engineering focus:
 
-| Project | What it demonstrates |
-| --- | --- |
-| [MarketPro](https://github.com/avrulesyou/marketpro) | Event-driven campaign routing with Fastify, Redis Streams, PostgreSQL, XML validation, idempotent persistence, and a live admin control room |
-| [SightLine](https://github.com/avrulesyou/SightLine) | A DePIN concept for verifiable real-world data collection with a trustless “Public-on-Reject” mechanism on Solana |
-| [RustAlgo4423](https://github.com/avrulesyou/RustAlgo4423) | Algorithms implemented in Rust, emphasizing fundamentals, correctness, and performance |
-| [solana-token-client](https://github.com/avrulesyou/solana-token-client) | Client-side exploration of Solana token workflows |
+- **AI infrastructure:** LLM applications, generative AI, machine-learning pipelines, model training, evaluation, and governance
+- **Blockchain systems:** Ethereum staking, Solana, XRP Ledger, smart contracts, validator infrastructure, and protocol integrations
+- **Distributed backends:** Go, Rust, Python, TypeScript, microservices, gRPC, REST, GraphQL, Kafka, and RabbitMQ
+- **Cloud delivery:** AWS, GCP, Azure, Docker, Kubernetes, Terraform, and GitHub Actions
+- **Security:** Solidity auditing, Slither, OWASP ZAP, IAM, TLS/SSL, and secure wallet experiences
 
-## Technical toolkit
+## Impact at a glance
 
 <div align="center">
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
+| 6+ years | 5+ | 99.9% |
+| :---: | :---: | :---: |
+| Building production software | Institutional Ethereum staking platforms | Production uptime SLA maintained at HSBC |
 
 </div>
 
-## Engineering principles
+> The numbers above summarize experience described in my resume; they are not live platform telemetry.
 
-```text
-Build for people.
-Make state explicit.
-Prefer deterministic behavior.
-Measure before claiming.
-Design failure paths, not just happy paths.
-```
+## Experience
 
-I am especially interested in engineering teams working on AI infrastructure, developer platforms, data products, fintech, and blockchain applications where reliability and product judgment matter as much as implementation speed.
+<details open>
+<summary><strong>REI Systems · AI Engineer</strong> — Apr 2026–Present</summary>
 
-## Let's build something useful
+Leading **AI infrastructure development for GovOrch AI**, REI Systems' federal government AI orchestration platform designed to streamline AI adoption and governance across federal agencies.
 
-If you are working on a challenging product or looking for an engineer who can move between product detail and systems-level thinking, [let's connect](mailto:abhishekvishwakarma@gmail.com).
+<a href="https://www.reisystems.com/rei-systems-launches-govorch-ai/">Read the GovOrch AI announcement →</a>
+
+</details>
+
+<details>
+<summary><strong>Launchnodes · Full Stack Blockchain Developer</strong> — May 2024–May 2025</summary>
+
+- Architected and deployed **5+ production Ethereum staking platforms** for institutional clients including UNICEF Venture Fund and GIGA.
+- Developed and secured Solidity smart contracts for tokenized staking rewards integrating Lido (`stETH`, `wstETH`) and AAVE.
+- Built AWS/GCP Marketplace products for self-hosted Ethereum validator node management.
+- Implemented **EIP-7702 account abstraction** features for institutional staking experiences.
+- Designed GraphQL indexing for real-time validator performance monitoring and analytics.
+- Delivered full-stack systems across Go, Rust, Python/FastAPI, Node.js, Next.js, Angular, AWS, GCP, and Docker.
+
+</details>
+
+<details>
+<summary><strong>Lindustries Tech Ltd · Full Stack Developer</strong> — Jun 2023–May 2024</summary>
+
+- Architected **PhoeniXRP.io**, an XRP Ledger NFT marketplace for tokenizing real-world assets.
+- Built Go and Python/FastAPI microservices for blockchain transactions and decentralized asset management.
+- Developed BlockRecruit.io with decentralized identity verification and smart-contract-based credentials.
+- Integrated XRPL.js, IPFS metadata, Next.js, and Capacitor for web and mobile experiences.
+- Contributed to work recognized with a **Ripple grant** for innovative asset tokenization.
+
+</details>
+
+<details>
+<summary><strong>Freelance Full Stack Developer · Self-employed</strong> — Oct 2022–Jun 2023</summary>
+
+Delivered **4+ full-stack production applications** across fleet management, education, mentorship, and AI-driven analytics, owning requirements, implementation, deployment, and support.
+
+</details>
+
+<details>
+<summary><strong>HSBC Bank · Full Stack Developer</strong> — Sep 2020–Sep 2022</summary>
+
+- Built Java/Spring Boot microservices and Angular/React dashboards for financial-data workflows.
+- Optimized relational schemas and SQL queries supporting ETL and internal reporting.
+- Reduced manual resource-cleanup intervention by **60%**.
+- Supported production systems under a **99.9% uptime SLA** and 24/7 on-call rotation.
+
+</details>
+
+## Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [Impact Staking Platforms](https://impactstake.com/)
+
+Institutional staking platforms built for mission-driven organizations and community participation.
+
+- Ethereum validator and staking infrastructure
+- Next.js, Nest.js, Python/FastAPI
+- GraphQL indexing and analytics
+- Reward distribution integrating Lido and AAVE
+
+</td>
+<td width="50%" valign="top">
+
+### [Launchnodes Staking UI](https://stakingui.launchnodes.com/)
+
+AWS/GCP Marketplace product for self-hosted Ethereum validator node management.
+
+- Go and Nest.js backend services
+- Angular and React interfaces
+- Cloud deployment and operator workflows
+- Institutional infrastructure experience
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### PhoeniXRP.io
+
+XRP Ledger NFT marketplace for real-world asset tokenization.
+
+- XRPL.js transaction flows
+- IPFS-backed metadata
+- Go and Python/FastAPI services
+- Next.js and Capacitor applications
+
+</td>
+<td width="50%" valign="top">
+
+### AI & product engineering
+
+Full-stack applications spanning predictive analytics, learning platforms, fleet safety, and mentorship.
+
+- AI-driven business intelligence
+- Real-time GPS and safety analytics
+- Video learning and assessments
+- Web, Android, and iOS delivery
+
+</td>
+</tr>
+</table>
+
+## Technology landscape
 
 <div align="center">
 
-<sub>Profile README maintained in <a href="https://github.com/avrulesyou/avrulesyou">avrulesyou/avrulesyou</a>.</sub>
+### AI · Cloud · Backend
+
+<img src="https://skillicons.dev/icons?i=python,go,rust,ts,js,java,nodejs,fastapi,spring,kafka,postgres,redis,docker,kubernetes,aws,gcp,azure,terraform&perline=9" alt="Python, Go, Rust, TypeScript, JavaScript, Java, Node.js, FastAPI, Spring, Kafka, PostgreSQL, Redis, Docker, Kubernetes, AWS, GCP, Azure, Terraform">
+
+### Web · Blockchain · Security
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,angular,tailwind,solidity,ethereum,solana,graphql,githubactions,ipfs&perline=10" alt="React, Next.js, Angular, Tailwind CSS, Solidity, Ethereum, Solana, GraphQL, GitHub Actions, IPFS">
+
+</div>
+
+## Education
+
+- **M.S. Computer Science**, University of the Cumberlands · May 2025–Dec 2026 · GPA **3.9**
+- **B.E. Computer Engineering**, Pune Institute of Computer Technology · Jul 2016–Jul 2020 · GPA **3.67/4.0**
+
+## GitHub activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=avrulesyou&show_icons=true&hide_border=true&theme=transparent&title_color=2563eb&icon_color=06b6d4&text_color=475569&rank_icon=github" height="170" alt="GitHub statistics">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=avrulesyou&layout=compact&hide_border=true&theme=transparent&title_color=2563eb&text_color=475569&langs_count=8" height="170" alt="Top languages">
+
+<br>
+
+<img src="https://streak-stats.demolab.com?user=avrulesyou&hide_border=true&theme=transparent&ring=2563eb&fire=f97316&currStreakLabel=2563eb&sideLabels=475569&dates=64748b" alt="GitHub contribution streak">
+
+</div>
+
+## What I value
+
+```text
+Make complex systems understandable.
+Build for reliability, security, and real users.
+Prefer measurable outcomes over impressive-sounding claims.
+Keep learning at the edge of AI and decentralized infrastructure.
+```
+
+## Let's connect
+
+I am open to conversations about **AI infrastructure, developer platforms, blockchain systems, smart-contract security, and senior full-stack engineering**.
+
+<div align="center">
+
+<a href="mailto:createwithav@gmail.com"><img src="https://img.shields.io/badge/Email-createwithav%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Abhishek"></a>
+<a href="https://www.linkedin.com/in/ritetoav/"><img src="https://img.shields.io/badge/LinkedIn-ritetoav-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile"></a>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:1d4ed8,100:0f172a&height=110&section=footer" alt="">
 
 </div>
