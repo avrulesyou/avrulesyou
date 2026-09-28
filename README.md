@@ -35,7 +35,7 @@ I design and ship practical software with a focus on clear systems, thoughtful u
 
 ## About me
 
-I am an **AI Infrastructure Engineer with 6+ years of experience** designing and shipping production systems across blockchain, cloud platforms, and federal AI. I currently lead AI infrastructure development for **GovOrch AI**, REI Systems' federal government AI orchestration platform.
+I am an **AI Infrastructure Engineer with 6+ years of experience** designing and shipping production systems across blockchain, cloud platforms, and federal AI. I currently lead AI infrastructure development for **federal government programs** at REI Systems.
 
 My engineering focus:
 
