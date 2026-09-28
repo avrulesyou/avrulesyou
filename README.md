@@ -2,7 +2,7 @@
 
 # Abhishek Vishwakarma
 
-### Full-stack engineer building reliable products across AI, web, and blockchain
+### Full-stack engineer building reliable products across AI, Finance and blockchain
 
 I design and ship practical software with a focus on clear systems, thoughtful user experiences, and production-minded engineering. My current interests sit at the intersection of **AI-enabled products**, **developer tools**, and **trustworthy on-chain infrastructure**.
 
