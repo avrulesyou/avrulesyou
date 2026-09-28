@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vishwakarma's Green Machine</title>
+  <style>
+    :root { color-scheme: dark; --green: #39ff14; --ink: #06110a; --muted: #a6c8a7; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: radial-gradient(circle at top, #173d18, var(--ink) 65%); color: white; font: 16px/1.5 system-ui, sans-serif; }
+    main { width: min(760px, 100%); text-align: center; }
+    h1 { color: var(--green); letter-spacing: .04em; margin: 0 0 4px; text-shadow: 0 0 18px #39ff1466; }
+    p { color: var(--muted); margin: 0 0 16px; }
+    .hud { display: flex; justify-content: space-between; margin: 0 auto 10px; max-width: 720px; color: var(--green); font-weight: 700; }
+    canvas { display: block; width: 100%; max-width: 720px; height: auto; margin: auto; border: 1px solid #39ff1466; border-radius: 16px; background: #08140a; box-shadow: 0 0 36px #39ff1420; touch-action: none; }
+    button { margin-top: 16px; border: 1px solid var(--green); border-radius: 999px; padding: 10px 20px; background: var(--green); color: var(--ink); font: inherit; font-weight: 800; cursor: pointer; }
+    button:focus-visible, canvas:focus-visible { outline: 3px solid white; outline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>⚡ VISHWAKARMA'S GREEN MACHINE</h1>
+    <p>Move the maker. Catch the sparks. Dodge the bugs. Forge your high score.</p>
+    <div class="hud"><span>SPARKS <b id="score">0</b></span><span>TIME <b id="time">30</b>s</span><span>BEST <b id="best">0</b></span></div>
+    <canvas id="game" width="720" height="420" tabindex="0" aria-label="Playable Green Machine game. Use arrow keys, WASD, or touch drag to move."></canvas>
+    <button id="start" type="button">START BUILDING</button>
+    <p id="status" aria-live="polite">Use ← ↑ ↓ →, WASD, or drag on the arena.</p>
+  </main>
+  <script>
+    const canvas = document.querySelector('#game'), ctx = canvas.getContext('2d');
+    const scoreEl = document.querySelector('#score'), timeEl = document.querySelector('#time'), bestEl = document.querySelector('#best');
+    const statusEl = document.querySelector('#status'), start = document.querySelector('#start');
+    const keys = new Set(); let player, spark, bugs, score, left, running, last, timer;
+    let best = Number(localStorage.getItem('vishwakarma-best') || 0); bestEl.textContent = best;
+    const random = (min, max) => Math.random() * (max - min) + min;
+    const place = () => ({ x: random(24, canvas.width - 24), y: random(24, canvas.height - 24) });
+    function reset() { player = { x: canvas.width / 2, y: canvas.height / 2, r: 16 }; spark = place(); bugs = Array.from({ length: 7 }, () => ({ ...place(), r: 12, vx: random(-1.5, 1.5), vy: random(-1.5, 1.5) })); score = 0; left = 30; scoreEl.textContent = 0; timeEl.textContent = 30; }
+    function draw() { ctx.clearRect(0, 0, canvas.width, canvas.height); ctx.strokeStyle = '#123919'; for (let x = 0; x < canvas.width; x += 30) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, canvas.height); ctx.stroke(); } for (let y = 0; y < canvas.height; y += 30) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(canvas.width, y); ctx.stroke(); } ctx.shadowBlur = 20; ctx.shadowColor = '#39ff14'; ctx.fillStyle = '#39ff14'; ctx.beginPath(); ctx.arc(spark.x, spark.y, 8, 0, Math.PI * 2); ctx.fill(); ctx.shadowColor = '#ff3b30'; ctx.fillStyle = '#ff3b30'; bugs.forEach(b => { ctx.beginPath(); ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2); ctx.fill(); ctx.fillStyle = '#06110a'; ctx.fillRect(b.x - 6, b.y - 2, 3, 3); ctx.fillRect(b.x + 3, b.y - 2, 3, 3); ctx.fillStyle = '#ff3b30'; }); ctx.shadowColor = '#ffffff'; ctx.fillStyle = '#ffffff'; ctx.beginPath(); ctx.arc(player.x, player.y, player.r, 0, Math.PI * 2); ctx.fill(); ctx.shadowBlur = 0; }
+    function tick(now) { if (!running) return; const dt = Math.min((now - last) / 16.67, 2); last = now; let dx = (keys.has('arrowright') || keys.has('d') ? 1 : 0) - (keys.has('arrowleft') || keys.has('a') ? 1 : 0); let dy = (keys.has('arrowdown') || keys.has('s') ? 1 : 0) - (keys.has('arrowup') || keys.has('w') ? 1 : 0); player.x = Math.max(16, Math.min(canvas.width - 16, player.x + dx * 5 * dt)); player.y = Math.max(16, Math.min(canvas.height - 16, player.y + dy * 5 * dt)); bugs.forEach(b => { b.x += b.vx * dt; b.y += b.vy * dt; if (b.x < 12 || b.x > canvas.width - 12) b.vx *= -1; if (b.y < 12 || b.y > canvas.height - 12) b.vy *= -1; if (Math.hypot(player.x - b.x, player.y - b.y) < player.r + b.r) end('A bug got you — ship another build!'); }); if (Math.hypot(player.x - spark.x, player.y - spark.y) < player.r + 10) { score++; scoreEl.textContent = score; spark = place(); } draw(); requestAnimationFrame(tick); }
+    function end(message) { running = false; clearInterval(timer); best = Math.max(best, score); localStorage.setItem('vishwakarma-best', best); bestEl.textContent = best; statusEl.textContent = `${message} Score: ${score}.`; start.textContent = 'PLAY AGAIN'; }
+    function begin() { reset(); running = true; start.textContent = 'RESTART'; statusEl.textContent = 'Build fast.'; clearInterval(timer); timer = setInterval(() => { left--; timeEl.textContent = left; if (left <= 0) end('Time is up'); }, 1000); canvas.focus(); last = performance.now(); requestAnimationFrame(tick); }
+    addEventListener('keydown', e => { keys.add(e.key.toLowerCase()); if (['arrowup', 'arrowdown', 'arrowleft', 'arrowright', ' '].includes(e.key.toLowerCase())) e.preventDefault(); }); addEventListener('keyup', e => keys.delete(e.key.toLowerCase())); start.addEventListener('click', begin); reset(); draw();
+  </script>
+</body>
+</html>

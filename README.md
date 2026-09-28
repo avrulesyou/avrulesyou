@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=220&section=header&text=Abhishek%20Vishwakarma&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Engineering%20%7C%20Blockchain%20%7C%20AI%20Applications&descAlignY=58&descSize=18" alt="Abhishek Vishwakarma — Full-Stack Engineering, Blockchain, AI Applications">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06110a,45:173d18,75:39ff14,100:06110a&height=240&section=header&text=VISHWAKARMA%20%2F%2F%20THE%20MAKER&fontSize=38&fontColor=ffffff&fontAlignY=36&desc=CREATE%20%E2%80%A2%20BUILD%20%E2%80%A2%20INNOVATE&descAlignY=58&descSize=20&descColor=39ff14" alt="Vishwakarma — Create, Build, Innovate">
 
-### Full-Stack Engineer building reliable systems across AI, finance, and blockchain
+### Creator · Builder · Innovator
 
-I design and ship practical software with a focus on clear systems, thoughtful user experiences, and production-minded engineering. My work spans **federal AI orchestration**, **institutional blockchain infrastructure**, and **full-stack financial systems**.
+I turn ambitious ideas into useful software across **AI applications, blockchain, cloud systems, and full-stack products**. Inspired by Vishwakarma—the creator and engineer of the worlds—I build with curiosity, precision, and a bias toward making the impossible feel inevitable.
 
 [![GitHub followers](https://img.shields.io/github/followers/avrulesyou?label=Followers&style=flat-square&logo=github)](https://github.com/avrulesyou?tab=followers)
 [![Public repositories](https://img.shields.io/github/repos/avrulesyou?label=Public%20repositories&style=flat-square&logo=github)](https://github.com/avrulesyou?tab=repositories)
@@ -19,11 +19,11 @@ I design and ship practical software with a focus on clear systems, thoughtful u
 </div>
 
 <p align="center">
-  <strong>Full-Stack Engineer building production systems across blockchain, cloud, and AI-powered applications.</strong>
+  <strong>Making the future tangible—one thoughtful system, interface, and experiment at a time.</strong>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Inter&size=20&duration=3500&pause=1100&color=2563EB&center=true&vCenter=true&width=700&lines=Full-Stack+Engineer;Blockchain+%26+Web3+Builder;AI+Application+Engineer;Cloud+%26+Distributed+Systems" alt="Full-Stack Engineer, Blockchain and Web3 Builder, AI Application Engineer, Cloud and Distributed Systems">
+  <img src="https://readme-typing-svg.demolab.com/?font=Inter&size=20&duration=3500&pause=1100&color=39FF14&center=true&vCenter=true&width=700&lines=Creator;Builder;Innovator;Blockchain+%26+Web3+Explorer;AI+Application+Maker" alt="Creator, Builder, Innovator, Blockchain and Web3 Explorer, AI Application Maker">
 </p>
 
 <p align="center">
@@ -85,7 +85,7 @@ Working on **AI engineering for federal government programs**, helping build sec
 <details>
 <summary><strong>Lindustries Tech Ltd · Full Stack Developer</strong> — Jun 2023–May 2024</summary>
 
-- Architected **PhoeniXRP.io**, an XRP Ledger NFT marketplace for tokenizing real-world assets.
+- Architected an XRP Ledger NFT marketplace for tokenizing real-world assets.
 - Built Go and Python/FastAPI microservices for blockchain transactions and decentralized asset management.
 - Developed BlockRecruit.io with decentralized identity verification and smart-contract-based credentials.
 - Integrated XRPL.js, IPFS metadata, Next.js, and Capacitor for web and mobile experiences.
@@ -142,9 +142,9 @@ AWS/GCP Marketplace product for self-hosted Ethereum validator node management.
 <tr>
 <td width="50%" valign="top">
 
-### PhoeniXRP.io
+### Real-world asset marketplace
 
-XRP Ledger NFT marketplace for real-world asset tokenization.
+An XRP Ledger marketplace for tokenizing real-world assets.
 
 - XRPL.js transaction flows
 - IPFS-backed metadata
@@ -204,6 +204,21 @@ Full-stack applications spanning predictive analytics, learning platforms, fleet
 
 </div>
 
+## Enter the workshop
+
+<div align="center">
+
+### ⚡ Vishwakarma's Green Machine
+
+I made a tiny browser game for the profile: collect the sparks, avoid the bugs, and see how many ideas you can forge in 30 seconds.
+
+<a href="https://avrulesyou.github.io/avrulesyou/game.html"><img src="https://img.shields.io/badge/PLAY%20THE%20GREEN%20MACHINE-39FF14?style=for-the-badge&logo=gamepad&logoColor=06110a" alt="Play Vishwakarma's Green Machine"></a>
+
+<br>
+<sub>Playable on desktop and mobile · no sign-in · no tracking</sub>
+
+</div>
+
 ## What I value
 
 ```text
@@ -215,7 +230,7 @@ Keep learning at the edge of AI and decentralized infrastructure.
 
 ## Let's connect
 
-I am open to conversations about **full-stack engineering, AI applications, developer platforms, blockchain systems, and smart-contract security**.
+I am open to conversations about **creative engineering, AI applications, developer platforms, blockchain systems, and smart-contract security**.
 
 <div align="center">
 
