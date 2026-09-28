@@ -62,9 +62,7 @@ My engineering focus:
 <details open>
 <summary><strong>REI Systems · AI Engineer</strong> — Apr 2026–Present</summary>
 
-Leading **AI infrastructure development for GovOrch AI**, REI Systems' federal government AI orchestration platform designed to streamline AI adoption and governance across federal agencies.
-
-<a href="https://www.reisystems.com/rei-systems-launches-govorch-ai/">Read the GovOrch AI announcement →</a>
+Leading **AI infrastructure development for federal government programs**, building secure orchestration capabilities that help agencies adopt, govern, and operate AI systems responsibly at scale.
 
 </details>
 
