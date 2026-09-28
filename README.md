@@ -190,19 +190,16 @@ Full-stack applications spanning predictive analytics, learning platforms, fleet
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=avrulesyou&show_icons=true&hide_border=true&theme=transparent&title_color=2563eb&icon_color=06b6d4&text_color=475569&rank_icon=github" height="170" alt="GitHub statistics">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=avrulesyou&layout=compact&hide_border=true&theme=transparent&title_color=2563eb&text_color=475569&langs_count=8" height="170" alt="Top languages">
-
-<br>
-
-<img src="https://streak-stats.demolab.com?user=avrulesyou&hide_border=true&theme=transparent&ring=2563eb&fire=f97316&currStreakLabel=2563eb&sideLabels=475569&dates=64748b" alt="GitHub contribution streak">
+<a href="https://github.com/avrulesyou?tab=followers"><img src="https://img.shields.io/github/followers/avrulesyou?label=Followers&style=for-the-badge&logo=github&logoColor=white&color=2563eb" alt="GitHub followers"></a>
+<a href="https://github.com/avrulesyou?tab=repositories"><img src="https://img.shields.io/github/repos/avrulesyou?label=Public%20repositories&style=for-the-badge&logo=github&logoColor=white&color=0891b2" alt="Public GitHub repositories"></a>
+<a href="https://github.com/avrulesyou?tab=stars"><img src="https://img.shields.io/github/stars/avrulesyou?label=Stars%20received&style=for-the-badge&logo=github&logoColor=white&color=7c3aed" alt="GitHub stars received"></a>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=avrulesyou&bg_color=0f172a&color=bfdbfe&line=22d3ee&point=ffffff&area=true&hide_border=true&radius=16">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=avrulesyou&bg_color=ffffff&color=1e3a8a&line=0891b2&point=1d4ed8&area=true&hide_border=true&radius=16">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=avrulesyou&bg_color=ffffff&color=1e3a8a&line=0891b2&point=1d4ed8&area=true&hide_border=true&radius=16" alt="GitHub contribution activity graph">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=avrulesyou&theme=github_dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=avrulesyou&theme=github">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=avrulesyou&theme=github" alt="GitHub contribution summary">
 </picture>
 
 </div>
