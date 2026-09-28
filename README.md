@@ -23,6 +23,10 @@ I design and ship practical software with a focus on clear systems, thoughtful u
 </p>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Inter&size=20&duration=3500&pause=1100&color=2563EB&center=true&vCenter=true&width=700&lines=Full-Stack+Engineer;Blockchain+%26+Web3+Builder;AI+Application+Engineer;Cloud+%26+Distributed+Systems" alt="Full-Stack Engineer, Blockchain and Web3 Builder, AI Application Engineer, Cloud and Distributed Systems">
+</p>
+
+<p align="center">
   I build reliable platforms across federal AI, Ethereum, Solana, XRP Ledger, cloud infrastructure, and full-stack product engineering.
 </p>
 
@@ -192,6 +196,14 @@ Full-stack applications spanning predictive analytics, learning platforms, fleet
 <br>
 
 <img src="https://streak-stats.demolab.com?user=avrulesyou&hide_border=true&theme=transparent&ring=2563eb&fire=f97316&currStreakLabel=2563eb&sideLabels=475569&dates=64748b" alt="GitHub contribution streak">
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=avrulesyou&bg_color=0f172a&color=bfdbfe&line=22d3ee&point=ffffff&area=true&hide_border=true&radius=16">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=avrulesyou&bg_color=ffffff&color=1e3a8a&line=0891b2&point=1d4ed8&area=true&hide_border=true&radius=16">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=avrulesyou&bg_color=ffffff&color=1e3a8a&line=0891b2&point=1d4ed8&area=true&hide_border=true&radius=16" alt="GitHub contribution activity graph">
+</picture>
 
 </div>
 
