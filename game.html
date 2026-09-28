@@ -1,45 +1,27 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Vishwakarma's Green Machine</title>
-  <style>
-    :root { color-scheme: dark; --green: #39ff14; --ink: #06110a; --muted: #a6c8a7; }
-    * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: radial-gradient(circle at top, #173d18, var(--ink) 65%); color: white; font: 16px/1.5 system-ui, sans-serif; }
-    main { width: min(760px, 100%); text-align: center; }
-    h1 { color: var(--green); letter-spacing: .04em; margin: 0 0 4px; text-shadow: 0 0 18px #39ff1466; }
-    p { color: var(--muted); margin: 0 0 16px; }
-    .hud { display: flex; justify-content: space-between; margin: 0 auto 10px; max-width: 720px; color: var(--green); font-weight: 700; }
-    canvas { display: block; width: 100%; max-width: 720px; height: auto; margin: auto; border: 1px solid #39ff1466; border-radius: 16px; background: #08140a; box-shadow: 0 0 36px #39ff1420; touch-action: none; }
-    button { margin-top: 16px; border: 1px solid var(--green); border-radius: 999px; padding: 10px 20px; background: var(--green); color: var(--ink); font: inherit; font-weight: 800; cursor: pointer; }
-    button:focus-visible, canvas:focus-visible { outline: 3px solid white; outline-offset: 3px; }
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Ember Forge</title>
+<style>
+:root{color-scheme:dark;--moss:#526b3b;--fern:#9dbb72;--fire:#f5b642;--ink:#08140d;--cream:#fff8e7}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:20px;background:radial-gradient(circle at 50% 0,#345b32,#08140d 68%);color:var(--cream);font:16px/1.45 system-ui,sans-serif}main{width:min(820px,100%);text-align:center}h1{margin:0;color:var(--fire);font:700 clamp(28px,6vw,48px) Georgia,serif;letter-spacing:.08em;text-shadow:0 0 24px #f5b64288}p{color:#d6e9c1;margin:6px 0 14px}.hud{display:flex;justify-content:space-between;max-width:760px;margin:0 auto 8px;color:var(--fern);font-weight:800;letter-spacing:.08em}canvas{display:block;width:100%;height:auto;border:2px solid #526b3b;border-radius:24px;background:#102116;box-shadow:0 16px 60px #0008;touch-action:none}button{margin-top:14px;border:1px solid var(--fire);border-radius:999px;padding:11px 24px;background:var(--fire);color:#182313;font:800 15px system-ui;cursor:pointer}button:focus-visible,canvas:focus-visible{outline:3px solid white;outline-offset:4px}
+</style>
 </head>
-<body>
-  <main>
-    <h1>⚡ VISHWAKARMA'S GREEN MACHINE</h1>
-    <p>Move the maker. Catch the sparks. Dodge the bugs. Forge your high score.</p>
-    <div class="hud"><span>SPARKS <b id="score">0</b></span><span>TIME <b id="time">30</b>s</span><span>BEST <b id="best">0</b></span></div>
-    <canvas id="game" width="720" height="420" tabindex="0" aria-label="Playable Green Machine game. Use arrow keys, WASD, or touch drag to move."></canvas>
-    <button id="start" type="button">START BUILDING</button>
-    <p id="status" aria-live="polite">Use ← ↑ ↓ →, WASD, or drag on the arena.</p>
-  </main>
-  <script>
-    const canvas = document.querySelector('#game'), ctx = canvas.getContext('2d');
-    const scoreEl = document.querySelector('#score'), timeEl = document.querySelector('#time'), bestEl = document.querySelector('#best');
-    const statusEl = document.querySelector('#status'), start = document.querySelector('#start');
-    const keys = new Set(); let player, spark, bugs, score, left, running, last, timer;
-    let best = Number(localStorage.getItem('vishwakarma-best') || 0); bestEl.textContent = best;
-    const random = (min, max) => Math.random() * (max - min) + min;
-    const place = () => ({ x: random(24, canvas.width - 24), y: random(24, canvas.height - 24) });
-    function reset() { player = { x: canvas.width / 2, y: canvas.height / 2, r: 16 }; spark = place(); bugs = Array.from({ length: 7 }, () => ({ ...place(), r: 12, vx: random(-1.5, 1.5), vy: random(-1.5, 1.5) })); score = 0; left = 30; scoreEl.textContent = 0; timeEl.textContent = 30; }
-    function draw() { ctx.clearRect(0, 0, canvas.width, canvas.height); ctx.strokeStyle = '#123919'; for (let x = 0; x < canvas.width; x += 30) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, canvas.height); ctx.stroke(); } for (let y = 0; y < canvas.height; y += 30) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(canvas.width, y); ctx.stroke(); } ctx.shadowBlur = 20; ctx.shadowColor = '#39ff14'; ctx.fillStyle = '#39ff14'; ctx.beginPath(); ctx.arc(spark.x, spark.y, 8, 0, Math.PI * 2); ctx.fill(); ctx.shadowColor = '#ff3b30'; ctx.fillStyle = '#ff3b30'; bugs.forEach(b => { ctx.beginPath(); ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2); ctx.fill(); ctx.fillStyle = '#06110a'; ctx.fillRect(b.x - 6, b.y - 2, 3, 3); ctx.fillRect(b.x + 3, b.y - 2, 3, 3); ctx.fillStyle = '#ff3b30'; }); ctx.shadowColor = '#ffffff'; ctx.fillStyle = '#ffffff'; ctx.beginPath(); ctx.arc(player.x, player.y, player.r, 0, Math.PI * 2); ctx.fill(); ctx.shadowBlur = 0; }
-    function tick(now) { if (!running) return; const dt = Math.min((now - last) / 16.67, 2); last = now; let dx = (keys.has('arrowright') || keys.has('d') ? 1 : 0) - (keys.has('arrowleft') || keys.has('a') ? 1 : 0); let dy = (keys.has('arrowdown') || keys.has('s') ? 1 : 0) - (keys.has('arrowup') || keys.has('w') ? 1 : 0); player.x = Math.max(16, Math.min(canvas.width - 16, player.x + dx * 5 * dt)); player.y = Math.max(16, Math.min(canvas.height - 16, player.y + dy * 5 * dt)); bugs.forEach(b => { b.x += b.vx * dt; b.y += b.vy * dt; if (b.x < 12 || b.x > canvas.width - 12) b.vx *= -1; if (b.y < 12 || b.y > canvas.height - 12) b.vy *= -1; if (Math.hypot(player.x - b.x, player.y - b.y) < player.r + b.r) end('A bug got you — ship another build!'); }); if (Math.hypot(player.x - spark.x, player.y - spark.y) < player.r + 10) { score++; scoreEl.textContent = score; spark = place(); } draw(); requestAnimationFrame(tick); }
-    function end(message) { running = false; clearInterval(timer); best = Math.max(best, score); localStorage.setItem('vishwakarma-best', best); bestEl.textContent = best; statusEl.textContent = `${message} Score: ${score}.`; start.textContent = 'PLAY AGAIN'; }
-    function begin() { reset(); running = true; start.textContent = 'RESTART'; statusEl.textContent = 'Build fast.'; clearInterval(timer); timer = setInterval(() => { left--; timeEl.textContent = left; if (left <= 0) end('Time is up'); }, 1000); canvas.focus(); last = performance.now(); requestAnimationFrame(tick); }
-    addEventListener('keydown', e => { keys.add(e.key.toLowerCase()); if (['arrowup', 'arrowdown', 'arrowleft', 'arrowright', ' '].includes(e.key.toLowerCase())) e.preventDefault(); }); addEventListener('keyup', e => keys.delete(e.key.toLowerCase())); start.addEventListener('click', begin); reset(); draw();
-  </script>
-</body>
-</html>
+<body><main>
+<h1>THE EMBER FORGE</h1><p>A tiny living cave. Guide the dragon, gather embers, and keep the story alive.</p>
+<div class="hud"><span>EMBERS <b id="score">0</b></span><span>CHAPTER <b id="chapter">1</b></span><span>BEST <b id="best">0</b></span></div>
+<canvas id="game" width="760" height="440" tabindex="0" aria-label="Playable Ember Forge game. Use arrow keys, WASD, or drag to guide the dragon."></canvas>
+<button id="start" type="button">ENTER THE CAVE</button><p id="status" aria-live="polite">Use arrow keys, WASD, or drag. Collect embers. Avoid the cave bugs.</p>
+</main>
+<script>
+const c=document.querySelector('#game'),x=c.getContext('2d'),scoreEl=document.querySelector('#score'),chapterEl=document.querySelector('#chapter'),bestEl=document.querySelector('#best'),statusEl=document.querySelector('#status'),start=document.querySelector('#start'),keys=new Set();let dragon,ember,bugs,flies,smoke,score,chapter,running,last,best=+localStorage.getItem('ember-best')||0,bite=0;
+bestEl.textContent=best;const R=(a,b)=>Math.random()*(b-a)+a,spot=()=>({x:R(36,c.width-36),y:R(45,c.height-48)});
+function reset(){dragon={x:130,y:300,dx:0,dy:0,blink:0};ember=spot();bugs=Array.from({length:6},()=>({...spot(),r:12,vx:R(-1.3,1.3),vy:R(-1.3,1.3)}));flies=Array.from({length:30},()=>({...spot(),phase:R(0,7)}));smoke=[];score=0;chapter=1;scoreEl.textContent=0;chapterEl.textContent=1}
+function cave(t){x.fillStyle='#102116';x.fillRect(0,0,c.width,c.height);x.fillStyle='#0a160e';x.beginPath();x.moveTo(0,0);x.lineTo(c.width,0);x.lineTo(c.width,80);x.quadraticCurveTo(680,125,610,84);x.quadraticCurveTo(520,42,450,100);x.quadraticCurveTo(350,150,270,80);x.quadraticCurveTo(170,30,0,105);x.closePath();x.fill();x.fillStyle='#173b24';x.beginPath();x.moveTo(0,c.height);x.lineTo(0,320);x.quadraticCurveTo(150,275,280,340);x.quadraticCurveTo(410,400,520,325);x.quadraticCurveTo(650,260,760,325);x.lineTo(760,440);x.closePath();x.fill();x.strokeStyle='#526b3b';x.globalAlpha=.22;for(let i=0;i<9;i++){x.beginPath();x.moveTo(i*100,150);x.quadraticCurveTo(i*100+40,220+Math.sin(t/900+i)*20,i*100+80,150);x.stroke()}x.globalAlpha=1}
+function draw(t){cave(t);flies.forEach(f=>{let a=(Math.sin(t/500+f.phase)+1)/2;x.fillStyle=`rgba(200,223,139,${.25+a*.75})`;x.beginPath();x.arc(f.x+Math.sin(t/800+f.phase)*12,f.y+Math.cos(t/700+f.phase)*8,2+a*2,0,7);x.fill()});x.shadowBlur=25;x.shadowColor='#f5b642';x.fillStyle='#f5b642';x.beginPath();x.arc(ember.x,ember.y,8+Math.sin(t/120)*3,0,7);x.fill();x.shadowBlur=0;bugs.forEach(b=>{x.fillStyle='#9a5b2b';x.beginPath();x.arc(b.x,b.y,b.r,0,7);x.fill();x.fillStyle='#08140d';x.fillRect(b.x-5,b.y-2,3,3);x.fillRect(b.x+2,b.y-2,3,3)});x.fillStyle='#f5b642';x.beginPath();x.arc(92,370,15+Math.sin(t/80)*3,0,7);x.fill();x.fillStyle='#fff8e7';x.beginPath();x.arc(dragon.x,dragon.y,20,0,7);x.fill();x.fillStyle='#345b32';x.beginPath();x.moveTo(dragon.x-12,dragon.y-13);x.lineTo(dragon.x-22,dragon.y-34);x.lineTo(dragon.x-2,dragon.y-18);x.moveTo(dragon.x+12,dragon.y-13);x.lineTo(dragon.x+22,dragon.y-34);x.lineTo(dragon.x+2,dragon.y-18);x.fill();x.fillStyle='#08140d';x.fillRect(dragon.x-9,dragon.y-3,4,4);x.fillRect(dragon.x+5,dragon.y-3,4,4);smoke.forEach(s=>{x.fillStyle=`rgba(214,233,193,${s.a})`;x.beginPath();x.arc(s.x,s.y,s.r,0,7);x.fill()})}
+function finish(text){running=false;clearInterval(bite);best=Math.max(best,score);localStorage.setItem('ember-best',best);bestEl.textContent=best;statusEl.textContent=`${text} You forged ${score} ember${score===1?'':'s'}.`;start.textContent='PLAY AGAIN'}
+function loop(t){if(!running)return;let dt=Math.min((t-last)/16.67,2);last=t;let ax=(keys.has('arrowright')||keys.has('d')?1:0)-(keys.has('arrowleft')||keys.has('a')?1:0),ay=(keys.has('arrowdown')||keys.has('s')?1:0)-(keys.has('arrowup')||keys.has('w')?1:0);dragon.x=Math.max(25,Math.min(c.width-25,dragon.x+ax*4.4*dt));dragon.y=Math.max(40,Math.min(c.height-35,dragon.y+ay*4.4*dt));bugs.forEach(b=>{b.x+=b.vx*dt;b.y+=b.vy*dt;if(b.x<20||b.x>c.width-20)b.vx*=-1;if(b.y<45||b.y>c.height-35)b.vy*=-1;if(Math.hypot(dragon.x-b.x,dragon.y-b.y)<30)finish('A cave bug interrupted the ritual.');});if(Math.hypot(dragon.x-ember.x,dragon.y-ember.y)<30){score++;chapter=1+Math.floor(score/5);scoreEl.textContent=score;chapterEl.textContent=chapter;ember=spot();statusEl.textContent=chapter>1?'The cave is waking up. Keep going.':'The first ember glows.'}if(Math.random()<.18)smoke.push({x:92+R(-12,12),y:362,r:R(4,10),a:.35});smoke.forEach(s=>{s.y-=.5*dt;s.r+=.08*dt;s.a-=.006*dt});smoke=smoke.filter(s=>s.a>0);draw(t);requestAnimationFrame(loop)}
+function begin(){reset();running=true;start.textContent='RESTART';statusEl.textContent='The first chapter begins.';last=performance.now();c.focus();requestAnimationFrame(loop)}
+addEventListener('keydown',e=>{keys.add(e.key.toLowerCase());if(e.key.startsWith('Arrow'))e.preventDefault()});addEventListener('keyup',e=>keys.delete(e.key.toLowerCase()));let drag=false;c.addEventListener('pointerdown',e=>{drag=true;c.setPointerCapture(e.pointerId)});c.addEventListener('pointerup',()=>drag=false);c.addEventListener('pointermove',e=>{if(!drag)return;let r=c.getBoundingClientRect();dragon.x=(e.clientX-r.left)*c.width/r.width;dragon.y=(e.clientY-r.top)*c.height/r.height});start.addEventListener('click',begin);reset();draw(0);
+</script></body></html>

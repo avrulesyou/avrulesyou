@@ -1,18 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06110a,45:173d18,75:39ff14,100:06110a&height=240&section=header&text=VISHWAKARMA%20%2F%2F%20THE%20MAKER&fontSize=38&fontColor=ffffff&fontAlignY=36&desc=CREATE%20%E2%80%A2%20BUILD%20%E2%80%A2%20INNOVATE&descAlignY=58&descSize=20&descColor=39ff14" alt="Vishwakarma — Create, Build, Innovate">
+<img src="assets/profile-header.svg" alt="Create, Build, Innovate">
 
 ### Creator · Builder · Innovator
 
-I turn ambitious ideas into useful software across **AI applications, blockchain, cloud systems, and full-stack products**. Inspired by Vishwakarma—the creator and engineer of the worlds—I build with curiosity, precision, and a bias toward making the impossible feel inevitable.
+I turn ambitious ideas into useful software across **AI applications, blockchain, cloud systems, and full-stack products**. I build with curiosity, precision, and a bias toward making the impossible feel inevitable.
 
-[![GitHub followers](https://img.shields.io/github/followers/avrulesyou?label=Followers&style=flat-square&logo=github)](https://github.com/avrulesyou?tab=followers)
-[![Public repositories](https://img.shields.io/github/repos/avrulesyou?label=Public%20repositories&style=flat-square&logo=github)](https://github.com/avrulesyou?tab=repositories)
-[![Profile views](https://komarev.com/ghpvc/?username=avrulesyou&style=flat-square&color=2563eb)](https://github.com/avrulesyou)
+<a href="https://github.com/avrulesyou?tab=followers"><img src="assets/badge-followers.svg" alt="GitHub followers"></a>
+<a href="https://github.com/avrulesyou?tab=repositories"><img src="assets/badge-repositories.svg" alt="Public repositories"></a>
+<a href="https://github.com/avrulesyou"><img src="assets/badge-profile.svg" alt="GitHub profile"></a>
 
 [View my repositories](https://github.com/avrulesyou?tab=repositories) · [Email me](mailto:createwithav@gmail.com)
 
-<a href="https://github.com/avrulesyou"><img src="https://img.shields.io/badge/GitHub-avrulesyou-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://github.com/avrulesyou"><img src="assets/badge-github.svg" alt="GitHub"></a>
 <a href="https://www.linkedin.com/in/ritetoav/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://impactstake.com/"><img src="https://img.shields.io/badge/ImpactStake-Explore-7C3AED?style=for-the-badge&logo=ethereum&logoColor=white" alt="ImpactStake"></a>
 
@@ -208,11 +208,11 @@ Full-stack applications spanning predictive analytics, learning platforms, fleet
 
 <div align="center">
 
-### ⚡ Vishwakarma's Green Machine
+### ⚡ The Ember Forge
 
-I made a tiny browser game for the profile: collect the sparks, avoid the bugs, and see how many ideas you can forge in 30 seconds.
+I made a tiny browser game for the profile: guide a dragon through a living cave, gather embers, and keep the forge alive.
 
-<a href="https://avrulesyou.github.io/avrulesyou/game.html"><img src="https://img.shields.io/badge/PLAY%20THE%20GREEN%20MACHINE-39FF14?style=for-the-badge&logo=gamepad&logoColor=06110a" alt="Play Vishwakarma's Green Machine"></a>
+<a href="https://avrulesyou.github.io/avrulesyou/game.html"><img src="assets/badge-play.svg" alt="Play The Ember Forge"></a>
 
 <br>
 <sub>Playable on desktop and mobile · no sign-in · no tracking</sub>
@@ -239,6 +239,6 @@ I am open to conversations about **creative engineering, AI applications, develo
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:1d4ed8,100:0f172a&height=110&section=footer" alt="">
+<img src="assets/profile-footer.svg" alt="">
 
 </div>
