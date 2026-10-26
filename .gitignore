@@ -1,0 +1,6 @@
+.preview/
+__pycache__/
+site/stats.json
+dist/
+data/
+site/battlefield-*.svg

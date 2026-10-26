@@ -1,0 +1,87 @@
+# Re-render the profile images daily and publish them to the `output` branch,
+# then deploy the interactive War Room (site/) to GitHub Pages.
+# The README points at raw.githubusercontent.com/<owner>/<repo>/output/<file>.svg
+name: profile
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - "generator/**"
+      - "assets/**"
+      - "site/**"
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      # The contribution calendar (incl. private counts shown on the profile)
+      # is readable with the default token; PROFILE_TOKEN is an optional override.
+      - name: Fetch contribution stats
+        run: python generator/fetch.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Render SVGs
+        run: python generator/build.py
+
+      # Pages publishes only site/, so the static fallback images and the
+      # snapshot are staged inside it (index.html references ./battlefield-*.svg).
+      - name: Stage War Room site
+        run: |
+          cp data/stats.json site/stats.json
+          cp dist/battlefield-light.svg dist/battlefield-dark.svg site/
+
+      - name: Verify renderers and aggregate calculations
+        run: python -m unittest discover -s tests -p 'test_*.py'
+
+      - name: Check profile artifacts
+        run: python scripts/check.py
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          jekyll: false
+          commit_message: "Update profile images"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  pages:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v5

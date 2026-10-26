@@ -35,7 +35,41 @@ I turn ambitious ideas into useful software across **AI applications, blockchain
   · Glendale, Arizona
 </p>
 
+[Contribution atlas](#contribution-atlas) · [What I build](#what-i-build) · [Experience](#experience) · [Play The Ember Forge](#enter-the-workshop)
+
 ---
+
+## Contribution atlas
+
+<p align="center">
+  <a href="https://avrulesyou.github.io/avrulesyou/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/battlefield-dark.svg">
+      <img src="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/battlefield-light.svg" alt="Interactive contribution landscape showing one tower for each contribution day, with height representing contribution count." width="100%">
+    </picture>
+  </a>
+</p>
+
+Each tower represents one day in the public GitHub contribution calendar. The profile
+workflow renders the landscape, activity cards, and snake animation from aggregate
+contribution data; private repository names and code are never fetched.
+
+**[Explore the interactive contribution page](https://avrulesyou.github.io/avrulesyou/)** ·
+[View the generator](generator/) · [Read the contribution guide](CONTRIBUTING.md)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/snake-light.svg" alt="Animated contribution snake rendered from the public contribution calendar." width="100%">
+</picture>
+
+---
+
+## What I build
+
+- **AI applications:** LLM applications, generative AI, machine-learning pipelines, model training, evaluation, and governance
+- **Blockchain systems:** Ethereum staking, Solana, XRP Ledger, smart contracts, validator infrastructure, and protocol integrations
+- **Distributed backends:** Go, Rust, Python, TypeScript, microservices, gRPC, REST, GraphQL, Kafka, and RabbitMQ
+- **Cloud delivery:** AWS, GCP, Azure, Docker, Kubernetes, Terraform, and GitHub Actions
 
 ## About me
 
@@ -195,13 +229,6 @@ Full-stack applications spanning predictive analytics, learning platforms, fleet
 <a href="https://github.com/avrulesyou?tab=stars"><img src="https://img.shields.io/github/stars/avrulesyou?label=Stars%20received&style=for-the-badge&logo=github&logoColor=white&color=7c3aed" alt="GitHub stars received"></a>
 
 <br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=avrulesyou&theme=github_dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=avrulesyou&theme=github">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=avrulesyou&theme=github" alt="GitHub contribution summary">
-</picture>
-
 </div>
 
 ## Enter the workshop
