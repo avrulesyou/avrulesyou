@@ -844,7 +844,7 @@ def render_bingo(stats: dict, mode: str) -> str:
     body = (defs + bg + f'<g transform="translate({PX} {PY})">' + page + "".join(T) + "</g>")
 
     desc = (f"Engineering Atlas field dossier for {_name(stats)}. Calendar: {rank_title} "
-            f"({total} contributions in the last year), location {village}, software engineering since 2016. "
+            f"({total} contributions in the last year), location {village}, full-stack development across AI, data, and product systems. "
             f"{private} private contributions and {public} public. "
             f"Busiest weekday {busiest or 'none yet'}. Monthly momentum: "
             + ", ".join(f"{calendar.month_abbr[_int(k[5:7], 1)]} {v}" for k, v in seq)

@@ -17,9 +17,9 @@ from theme import AKATSUKI as AK, STRAW_HAT as SH, MODES, FONT_MONO, FONT_BODY  
 W, H = 840, 70
 LINES = [
     ("sh", "I turn ambitious ideas into useful software."),
-    ("ak", "AI Expert · Developing solutions since 2016"),
-    ("sh", "Most of my battles are fought in private repos."),
-    ("ak", "Currently sailing: building solutions for the public sector."),
+    ("ak", "Full-stack developer · AI and data builder"),
+    ("sh", "Exploring blockchain, mobile, and product systems."),
+    ("ak", "Learning in public, building with purpose."),
 ]
 FS = 16
 CHAR_W = FS * 0.602  # SF Mono / Menlo / Consolas advance
