@@ -1,0 +1,10 @@
+{
+  "_note": "GitHub has no achievements API. Mirror the profile's Achievements tab here when it changes.",
+  "achievements": [
+    {"id": "pull-shark", "name": "Pull Shark", "tier": 2, "meaning": "Merged pull requests"},
+    {"id": "pair-extraordinaire", "name": "Pair Extraordinaire", "tier": 1, "meaning": "Co-authored merged work"},
+    {"id": "quickdraw", "name": "Quickdraw", "tier": 1, "meaning": "Closed an issue/PR within 5 minutes"},
+    {"id": "yolo", "name": "YOLO", "tier": 1, "meaning": "Merged a pull request solo"},
+    {"id": "developer-program", "name": "Developer Program Member", "tier": 1, "meaning": "GitHub Developer Program"}
+  ]
+}

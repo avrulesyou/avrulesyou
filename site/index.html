@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Engineering Atlas · Abhishek Vishwakarma</title>
+  <meta name="description" content="Abhishek Vishwakarma, AI Engineer at REI Systems. Explore an original contribution landscape, the daily records behind it, and a journey through software engineering since 2016. Public aggregates only.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f5f2e9">
+  <meta property="og:title" content="The Engineering Atlas · Abhishek Vishwakarma">
+  <meta property="og:description" content="A little curiosity. A world of contributions. An original, interactive atlas of Abhishek Vishwakarma’s public contribution calendar and engineering journey.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://avrulesyou.github.io/avrulesyou/">
+  <meta property="og:image" content="https://avrulesyou.github.io/avrulesyou/battlefield-light.svg">
+  <meta property="og:image:alt" content="An original isometric contribution landscape: one tower for each day of the public contribution calendar.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Engineering Atlas · Abhishek Vishwakarma">
+  <meta name="twitter:description" content="A little curiosity. A world of contributions. An original, interactive atlas of Abhishek Vishwakarma’s public contribution calendar and engineering journey.">
+  <meta name="twitter:image" content="https://avrulesyou.github.io/avrulesyou/battlefield-light.svg">
+  <meta name="twitter:image:alt" content="An original isometric contribution landscape: one tower for each day of the public contribution calendar.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%231c292d'/%3E%3Cpath d='M20 6 24 16 34 20 24 24 20 34 16 24 6 20 16 16Z' fill='none' stroke='%23ddb36b' stroke-width='1.3'/%3E%3Cpath d='M20 11 23 20 20 29 17 20Z' fill='%23f5f2e9'/%3E%3C/svg%3E">
+  <script>
+    // Apply the saved theme before first paint (no flash); light is the default.
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('warroom-theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') t = 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#heatmap-title">Skip to the contribution calendar</a>
+  <header class="top">
+    <div class="wrap top__inner">
+      <a class="brand" href="#home" aria-label="Abhishek, Engineering Atlas home">
+        <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17.5"/><path d="M20 3v6m0 22v6M3 20h6m22 0h6M20 10l3.5 10L20 30l-3.5-10Z"/><path class="brand__needle" d="m20 10 3.5 10H20Z"/></svg>
+        <span><strong>Abhishek</strong><span>Engineering Atlas</span></span>
+      </a>
+      <nav class="nav" aria-label="Main navigation"><a href="#explore">Explore</a><a href="#craft">Craft</a><a href="#journey">Journey</a></nav>
+      <div class="top__actions">
+        <a class="back" href="https://github.com/avrulesyou"><span>Back to GitHub</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10"/></svg></a>
+        <button class="theme-toggle icon-button" id="theme-toggle" type="button" data-action="toggle-theme" aria-label="Switch to dark theme">
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.6 14.2A8.7 8.7 0 0 1 9.8 3.4a8.7 8.7 0 1 0 10.8 10.8Z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main id="home">
+    <section class="intro wrap" aria-labelledby="page-title">
+      <div class="intro__text">
+        <p class="eyebrow"><span class="small-rule"></span> The engineering atlas <span class="edition">/ Field notes, in code</span></p>
+        <h1 id="page-title">A little curiosity.<br>A world of <em>contributions.</em></h1>
+        <div class="intro__links"><a class="text-link" href="#explore">Explore the landscape <span aria-hidden="true">↘</span></a><a class="quiet-link" href="https://github.com/avrulesyou">GitHub profile <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="intro__aside">
+        <p class="intro__name">Abhishek Vishwakarma</p>
+        <p class="intro__role">AI Engineer at REI Systems.<br> Developing solutions since 2016.</p>
+        <p class="intro__focus">Turning document-heavy workflows into small, reviewable, auditable steps.</p>
+        <dl class="hero-metrics" aria-label="Contribution summary"><div><dt>Contributions</dt><dd id="metric-total">—</dd></div><div><dt>Active days</dt><dd id="metric-active">—</dd></div><div><dt>Best streak</dt><dd id="metric-streak">—</dd></div></dl>
+      </div>
+    </section>
+    <section class="explore wrap" id="explore" aria-labelledby="explore-title">
+      <div class="section-heading"><h2 id="explore-title"><span class="section-index">01 /</span> A living record</h2><span class="section-note">War Room <span aria-hidden="true">·</span> Contribution landscape</span></div>
+      <div class="atlas" id="atlas">
+        <div class="toolbar" role="group" aria-label="Landscape controls">
+          <div class="toolbar__explore">
+            <button class="control control--explore" id="explore-day" data-action="explore-day" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2v4m0 8v4M2 10h4m8 0h4"/><circle cx="10" cy="10" r="5"/></svg>Explore day</button>
+            <label class="select-control"><span class="sr-only">Highlights</span><select id="highlights" data-action="highlight"><option value="">Highlights</option><option value="peak">Peak day</option><option value="streak">Longest streak</option><option value="month" id="highlight-month" disabled>Best month</option></select></label>
+          </div>
+          <div class="camera-controls scene-only" role="group" aria-label="Camera view"><button type="button" data-camera="front" aria-pressed="true">Front</button><button type="button" data-camera="map" aria-pressed="false">Map</button><button type="button" data-camera="isometric" aria-pressed="false">Isometric</button><button type="button" data-camera="cinematic" aria-pressed="false">Cinematic</button></div>
+          <div class="toolbar__options">
+            <label class="select-control filter-control"><span>Show</span><select id="filter" data-filter="all" aria-label="Filter contribution days"><option value="all">All days</option><option value="top">Top days</option><option value="streak">Longest streak</option><option value="weekdays">Weekdays</option><option value="weekends">Weekends</option></select></label>
+            <details class="view-options scene-only" id="view-options"><summary class="icon-button" aria-label="View settings"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14"/><path class="slider-knobs" d="M7 3v4m6 1v4m-6 1v4"/></svg></summary><div class="view-options__body"><p class="eyebrow">View settings</p><button class="control" id="btn-motion" type="button" data-action="toggle-motion" data-state="off">Enable motion</button><label for="quality">Render quality</label><select id="quality" data-action="quality"><option value="auto">Auto</option><option value="low">Low</option><option value="high">High</option></select><p id="motion-note">The landscape starts still. Motion is always optional.</p></div></details>
+          </div>
+        </div>
+        <div class="stage" id="stage">
+          <img class="stage__fallback" id="stage-fallback" src="./battlefield-light.svg" alt="Complete contribution landscape. Explore the same daily records in the calendar below.">
+          <div class="stage__canvas" id="stage-canvas" role="img" aria-label="Interactive contribution landscape. Each tower represents one calendar day. Use the calendar below for keyboard access."></div>
+          <div class="stage__labels" id="stage-labels" aria-hidden="true"></div>
+          <div class="stage__annotation"><span class="crosshair" aria-hidden="true">+</span><span>Each tower, one day<span class="annotation-sub">Height is contribution count</span></span></div>
+          <p class="stage__range" id="stage-range">Loading the daily record</p>
+          <div class="stage__bottom"><p class="stage__hint" id="stage-hint">Drag to orbit · Select a tower to inspect</p><button class="control interact-toggle scene-only" id="interactive-toggle" type="button" data-action="toggle-interactive" data-state="off">Explore in 3D</button><svg class="stage__compass" viewBox="0 0 48 64" aria-hidden="true"><text x="24" y="9" text-anchor="middle">N</text><circle cx="24" cy="36" r="19"/><path d="M24 19v34M7 36h34M24 23l4 13-4 13-4-13Z"/></svg></div>
+          <div class="stage__toast" id="stage-toast" role="status"></div>
+          <div class="stage__loading" id="stage-loading" role="status"><span>Charting the landscape</span></div>
+          <aside class="details" id="details" role="dialog" aria-modal="false" aria-labelledby="details-title" hidden>
+            <div class="details__head"><h3 class="eyebrow" id="details-title" tabindex="-1">Daily record</h3><button class="icon-button" id="details-close" data-action="dismiss-day" type="button" aria-label="Close daily record"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15"/></svg></button></div>
+            <div id="details-body"></div>
+            <div class="details__nav"><button class="control" id="day-prev" data-action="previous-day" type="button">← Previous</button><label><span class="sr-only">Choose a calendar day</span><input id="day-input" type="date"></label><button class="control" id="day-next" data-action="next-day" type="button">Next →</button></div>
+          </aside>
+        </div>
+        <p class="fallback-note" id="fallback-note" hidden>Interactive view unavailable. The complete map and daily records are below.</p>
+        <div class="replay" role="group" aria-label="Contribution history replay"><button class="replay__play" id="replay-play" data-action="replay-play" type="button" data-state="off"><svg viewBox="0 0 16 16" aria-hidden="true"><path class="play-symbol" d="m5 3 8 5-8 5Z"/><path class="pause-symbol" d="M5 3v10M11 3v10"/></svg><span>Play history</span></button><label class="sr-only" for="replay-progress">Replay progress</label><input id="replay-progress" data-action="replay-scrub" type="range" min="0" max="1" step="0.001" value="1"><output id="replay-date" for="replay-progress" aria-live="off">—</output><span class="replay__total"><strong id="replay-total">—</strong> <span>contributions</span></span><p class="replay__note" id="replay-note" hidden>Reduced motion is on. Drag the slider, or step forward one week at a time.</p></div>
+      </div>
+      <div class="heat">
+        <div class="heat__heading"><h3 id="heatmap-title" tabindex="-1">The daily record</h3><p id="total-line">Loading public contribution aggregates.</p></div>
+        <div class="heat__scroller" id="heat-scroller" tabindex="-1"><div id="heatmap" class="heatmap-grid" role="grid" aria-label="Contribution calendar" aria-describedby="heatmap-help"></div></div>
+        <div class="heat__foot"><p id="heatmap-help"><span class="hint-keys">Arrow keys to explore · Home/End to jump · Enter to pin · Esc to unpin</span><span class="hint-touch">Scroll sideways · Tap a day to pin it</span></p><div class="legend" id="legend" aria-label="Contribution intensity"></div></div>
+        <p class="filter-status" id="filter-status" role="status">Showing all days.</p>
+      </div>
+      <div class="insights" aria-labelledby="insights-title">
+        <div class="section-heading section-heading--small"><h3 id="insights-title">Patterns in the practice</h3><span class="section-note">A few things the record tells us</span></div>
+        <div class="insights__grid">
+          <section class="insight momentum" aria-labelledby="momentum-title"><div class="insight__heading"><h4 id="momentum-title">Monthly momentum</h4><span class="period-label" id="momentum-period">—</span></div><div class="momentum__value" id="momentum-value">—</div><p class="insight__note" id="momentum-label">Waiting for the daily record.</p><div class="month-chart" id="month-chart" role="group" aria-label="Monthly contribution totals"></div></section>
+          <section class="insight weekday" aria-labelledby="weekday-title"><h4 id="weekday-title">A rhythm through the week</h4><p class="insight__lead" id="weekday-lead">—</p><div class="weekday-chart" id="weekday-chart" aria-label="Contributions by weekday"></div></section>
+          <section class="insight consistency" aria-labelledby="consistency-title"><h4 id="consistency-title">Showing up</h4><div class="consistency__body"><div class="consistency__ring"><svg viewBox="0 0 100 100" aria-hidden="true"><circle class="ring-track" cx="50" cy="50" r="43"/><circle class="ring-value" id="ring-value" cx="50" cy="50" r="43" pathLength="100"/></svg><strong id="active-rate">—</strong></div><p id="consistency-note">Waiting for observed account days.</p></div><div class="best-week"><span class="eyebrow">Best week</span><strong id="best-week-value">—</strong><span id="best-week-range">No daily record yet</span><button class="quiet-link" id="best-week" data-action="highlight-week" type="button" disabled>Explore this week <span aria-hidden="true">↗</span></button></div></section>
+        </div>
+      </div>
+    </section>
+    <section class="craft wrap" id="craft" aria-labelledby="craft-title">
+      <div class="section-heading"><h2 id="craft-title"><span class="section-index">02 /</span> What I build</h2><span class="section-note">The work behind the landscape</span></div>
+      <div class="craft__intro"><p>Useful software.<br><em>Considered systems.</em></p><p>From regulated financial systems to production AI, the through-line is practical engineering: secure foundations, thoughtful tools, and human review where it matters.</p></div>
+      <div class="craft__grid"><article class="craft-area"><span class="craft-area__index">I</span><h3>AI engineering</h3><p>Production AI solutions that make complex, document-heavy workflows reviewable and auditable.</p><p class="craft-area__tools">Python · LangGraph · LangChain</p></article><article class="craft-area"><span class="craft-area__index">II</span><h3>Platforms &amp; delivery</h3><p>Infrastructure as code, Kubernetes, and GitOps delivery on AWS. Foundations built for the work ahead.</p><p class="craft-area__tools">AWS · Kubernetes · Terraform</p></article><article class="craft-area"><span class="craft-area__index">III</span><h3>Products &amp; developer tools</h3><p>Full-stack product work, DSLs, formatters, and code generators that help teams move with confidence.</p><p class="craft-area__tools">React · TypeScript · Python · Rust</p></article></div>
+      <p class="craft__privacy">Selected areas of practice, not a project catalogue. The calendar shares aggregate activity, never private repositories or code.</p>
+    </section>
+    <section class="journey wrap" id="journey" aria-labelledby="journey-title">
+      <div class="section-heading"><h2 id="journey-title"><span class="section-index">03 /</span> A continuing journey</h2><span class="section-note">Developing solutions since 2016</span></div>
+      <div class="journey__grid"><ol class="timeline"><li><span class="timeline__dates">2016—2025</span><h3>Banking, fintech &amp; blockchain</h3><p>Delivering secure software for regulated financial systems.</p></li><li><span class="timeline__dates">2025—now</span><h3>AI engineering</h3><p>Production AI solutions, with human review where it matters.</p></li></ol><aside class="download-card"><svg viewBox="0 0 80 70" aria-hidden="true"><path d="m7 32 32-18 34 18-34 19Z"/><path d="M7 39 39 57 73 39M7 46l32 18 34-18M23 31v-8l9-5v17m8 4V9l10 6v18m8 7V25l9 5v5"/></svg><div><p class="eyebrow">A small field souvenir</p><h3>Take the atlas with you.</h3><p>An original contribution card, built from this public snapshot.</p><button class="text-link" id="download-card" data-action="download-card" type="button" disabled>Download PNG <span aria-hidden="true">↓</span></button><p class="sr-only" id="download-status" role="status"></p></div></aside></div>
+    </section>
+  </main>
+  <footer class="foot wrap"><div><strong>Abhishek Vishwakarma</strong><p>Curiosity, made concrete.</p></div><div><p id="generated">Snapshot date unavailable.</p><p>Public contribution aggregates only. Private work stays private.</p></div><a class="quiet-link" href="https://github.com/avrulesyou">Find me on GitHub <span aria-hidden="true">↗</span></a></footer>
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+  <p class="sr-only" id="selection-status" role="status" aria-live="polite"></p>
+  <noscript><p class="wrap noscript">This atlas uses JavaScript for its daily records and interactive views. You can still view <a href="./battlefield-light.svg">the complete contribution map</a> or visit <a href="https://github.com/avrulesyou">the GitHub profile</a>.</p></noscript>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
