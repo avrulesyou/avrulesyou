@@ -65,7 +65,7 @@ def banner(mode: str) -> str:
     o = []
     a = o.append
     a(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">')
-    a('<title id="t">Abhishek Vishwakarma · Engineering Atlas</title>')
+    a('<title id="t">Abhishek Vishwakarma · Personal Engineering Atlas</title>')
     a('<desc id="d">An original panoramic harbor: a survey ship and a hat on the quay, warm sunlight across the water, and a distant skyline beneath crimson clouds, a red moon and fine rain. One continuous world, drawn in paper, ink and gold.</desc>')
     a('<defs><style>')
     # sun: rays turn while intensity breathes

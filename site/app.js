@@ -578,7 +578,7 @@ function downloadCard() {
     ctx.fillText('Abhishek Vishwakarma', 90, 255);
     ctx.fillStyle = muted;
     ctx.font = '19px sans-serif';
-    ctx.fillText('AI Engineer at REI Systems · Developing solutions since 2016', 90, 295);
+    ctx.fillText('Full-stack developer · AI, data, and product systems', 90, 295);
     const unit = Math.min(20, 1160 / model.nWeeks);
     const polygon = (points, fill) => {
       ctx.beginPath();

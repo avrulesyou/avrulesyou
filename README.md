@@ -1,148 +1,107 @@
-<div align="center">
+<!-- A personal Engineering Atlas for avrulesyou. -->
 
-<img src="assets/profile-header.svg" alt="Create, Build, Innovate">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Abhishek Vishwakarma - Engineering Atlas. An original illustrated panorama for a full-stack developer building AI, data, blockchain, and product systems." src="assets/banner-light.svg" width="100%">
+</picture>
 
-### Creator · Builder · Innovator
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/caption-dark.svg">
+  <img alt="A typewriter caption cycling through practical software, AI, data, blockchain, and product engineering themes." src="assets/caption-light.svg" width="100%">
+</picture>
 
-I turn ambitious ideas into useful software across **AI applications, blockchain, cloud systems, and full-stack products**. I build with curiosity, precision, and a bias toward making the impossible feel inevitable.
+**Full-stack developer · AI and data builder · blockchain and product engineering**
 
-<a href="https://github.com/avrulesyou?tab=followers"><img src="assets/badge-followers.svg" alt="GitHub followers"></a>
-<a href="https://github.com/avrulesyou?tab=repositories"><img src="assets/badge-repositories.svg" alt="Public repositories"></a>
-<a href="https://github.com/avrulesyou"><img src="assets/badge-profile.svg" alt="GitHub profile"></a>
+I turn ambitious ideas into useful software: from anomaly detection and machine
+learning notebooks to Solana applications, cross-platform mobile tools, and
+full-stack web products.
 
-[View my repositories](https://github.com/avrulesyou?tab=repositories) · [Email me](mailto:createwithav@gmail.com)
+**Current focus:** learning at the edge of applied AI, data engineering, and
+trustworthy decentralized systems while completing graduate computer science work.
 
-<a href="https://github.com/avrulesyou"><img src="assets/badge-github.svg" alt="GitHub"></a>
-<a href="https://www.linkedin.com/in/ritetoav/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://impactstake.com/"><img src="https://img.shields.io/badge/ImpactStake-Explore-7C3AED?style=for-the-badge&logo=ethereum&logoColor=white" alt="ImpactStake"></a>
+[Explore my contribution atlas](https://avrulesyou.github.io/avrulesyou/) ·
+[What I build](#what-i-build) · [Toolkit](#toolkit) ·
+[Play The Ember Forge](#the-ember-forge)
 
-</div>
+<a href="https://avrulesyou.github.io/avrulesyou/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/battlefield-dark.svg">
+    <img alt="A contribution landscape rendered from the avrulesyou GitHub calendar. Each tower represents one day and height represents contribution count." src="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/battlefield-light.svg" width="100%">
+  </picture>
+</a>
 
-<p align="center">
-  <strong>Making the future tangible—one thoughtful system, interface, and experiment at a time.</strong>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Inter&size=20&duration=3500&pause=1100&color=39FF14&center=true&vCenter=true&width=700&lines=Creator;Builder;Innovator;Blockchain+%26+Web3+Explorer;AI+Application+Maker" alt="Creator, Builder, Innovator, Blockchain and Web3 Explorer, AI Application Maker">
-</p>
-
-<p align="center">
-  I build reliable platforms across federal AI, Ethereum, Solana, XRP Ledger, cloud infrastructure, and full-stack product engineering.
-</p>
-
-<p align="center">
-  <a href="mailto:createwithav@gmail.com">createwithav@gmail.com</a>
-  · Glendale, Arizona
-</p>
-
-[Contribution atlas](#contribution-atlas) · [What I build](#what-i-build) · [Experience](#experience) · [Play The Ember Forge](#enter-the-workshop)
-
----
-
-## Contribution atlas
-
-<p align="center">
-  <a href="https://avrulesyou.github.io/avrulesyou/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/battlefield-dark.svg">
-      <img src="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/battlefield-light.svg" alt="Interactive contribution landscape showing one tower for each contribution day, with height representing contribution count." width="100%">
-    </picture>
-  </a>
-</p>
-
-Each tower represents one day in the public GitHub contribution calendar. The profile
-workflow renders the landscape, activity cards, and snake animation from aggregate
-contribution data; private repository names and code are never fetched.
-
-**[Explore the interactive contribution page](https://avrulesyou.github.io/avrulesyou/)** ·
-[View the generator](generator/) · [Read the contribution guide](CONTRIBUTING.md)
+Each tower is a day. Height reflects contribution count and color reflects
+intensity, not a repository or project category. The interactive page includes
+the daily record, filters, streaks, weekday patterns, and a downloadable card.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/snake-light.svg" alt="Animated contribution snake rendered from the public contribution calendar." width="100%">
+  <img alt="Animated contribution snake rendered from the avrulesyou public contribution calendar." src="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/snake-light.svg" width="100%">
 </picture>
 
----
+**The numbers, with context.** The atlas uses aggregate GitHub contribution
+data only. It never requests repository names or private code.
 
 ## What I build
 
-- **AI applications:** LLM applications, generative AI, machine-learning pipelines, model training, evaluation, and governance
-- **Blockchain systems:** Ethereum staking, Solana, XRP Ledger, smart contracts, validator infrastructure, and protocol integrations
-- **Distributed backends:** Go, Rust, Python, TypeScript, microservices, gRPC, REST, GraphQL, Kafka, and RabbitMQ
-- **Cloud delivery:** AWS, GCP, Azure, Docker, Kubernetes, Terraform, and GitHub Actions
+### Applied AI and data
+Machine learning experiments, anomaly detection, regression analysis, computer
+vision, and practical Python workflows that turn data into decisions.
 
-## About me
+### Blockchain and decentralized products
+Solana and Web3 experiments, trust-minimized workflows, token-aware products,
+and applications that connect real-world activity to verifiable data.
 
-I am a **Full-Stack Engineer with 6+ years of experience** designing and shipping production systems across blockchain, cloud platforms, and AI applications. I currently work as an AI Engineer on **federal government programs** at REI Systems.
+### Full-stack and mobile systems
+TypeScript and JavaScript products, Python services, React interfaces, Flutter
+and .NET MAUI applications, dashboards, APIs, and developer tooling.
 
-My engineering focus:
+## Collectibles
 
-- **AI applications:** LLM applications, generative AI, machine-learning pipelines, model training, evaluation, and governance
-- **Blockchain systems:** Ethereum staking, Solana, XRP Ledger, smart contracts, validator infrastructure, and protocol integrations
-- **Distributed backends:** Go, Rust, Python, TypeScript, microservices, gRPC, REST, GraphQL, Kafka, and RabbitMQ
-- **Cloud delivery:** AWS, GCP, Azure, Docker, Kubernetes, Terraform, and GitHub Actions
-- **Security:** Solidity auditing, Slither, OWASP ZAP, IAM, TLS/SSL, and secure wallet experiences
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/wanted-dark.svg">
+        <img alt="A contribution collectible poster for Abhishek Vishwakarma, generated from aggregate GitHub activity." src="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/wanted-light.svg" width="100%">
+      </picture>
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/bingo-dark.svg">
+        <img alt="An engineering activity dossier for avrulesyou, generated from aggregate contribution data." src="https://raw.githubusercontent.com/avrulesyou/avrulesyou/output/bingo-light.svg" width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
 
-## Impact at a glance
+Playful editions of the same contribution snapshot, not additional work claims.
 
-<div align="center">
+## Toolkit
 
-| 6+ years | 5+ | 99.9% |
-| :---: | :---: | :---: |
-| Building production software | Institutional Ethereum staking platforms | Production uptime SLA maintained at HSBC |
+<table>
+  <tr>
+    <th width="33%">First track<br><sub>Languages &amp; UI</sub></th>
+    <th width="33%">Second track<br><sub>Data &amp; platforms</sub></th>
+    <th width="34%">Third track<br><sub>Emerging systems</sub></th>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <img alt="Python, TypeScript, JavaScript, React, Flutter, C Sharp, and Rust" src="https://skillicons.dev/icons?i=python,ts,js,react,flutter,cs,rust&amp;perline=4" height="96">
+    </td>
+    <td align="center" valign="top">
+      <img alt="Jupyter, .NET, Node.js, Django, Docker, and GitHub Actions" src="https://skillicons.dev/icons?i=jupyter,dotnet,nodejs,django,docker,githubactions&amp;perline=4" height="96">
+    </td>
+    <td align="center" valign="top">
+      <img alt="Solana, Ethereum, and AI" src="https://img.shields.io/badge/Solana%20%C2%B7%20Ethereum%20%C2%B7%20AI-111827?style=flat-square&amp;logo=solana&amp;logoColor=white">
+      <img alt="Machine learning and computer vision" src="https://img.shields.io/badge/Machine%20Learning%20%C2%B7%20Computer%20Vision-2563EB?style=flat-square&amp;logo=python&amp;logoColor=white">
+    </td>
+  </tr>
+</table>
 
-</div>
-
-> The numbers above summarize experience described in my resume; they are not live platform telemetry.
-
-## Experience
-
-<details open>
-<summary><strong>REI Systems · AI Engineer</strong> — Apr 2026–Present</summary>
-
-Working on **AI engineering for federal government programs**, helping build secure capabilities for agency adoption, governance, and responsible use of AI systems.
-
-</details>
-
-<details>
-<summary><strong>Launchnodes · Full Stack Blockchain Developer</strong> — May 2024–May 2025</summary>
-
-- Architected and deployed **5+ production Ethereum staking platforms** for institutional clients including UNICEF Venture Fund and GIGA.
-- Developed and secured Solidity smart contracts for tokenized staking rewards integrating Lido (`stETH`, `wstETH`) and AAVE.
-- Built AWS/GCP Marketplace products for self-hosted Ethereum validator node management.
-- Implemented **EIP-7702 account abstraction** features for institutional staking experiences.
-- Designed GraphQL indexing for real-time validator performance monitoring and analytics.
-- Delivered full-stack systems across Go, Rust, Python/FastAPI, Node.js, Next.js, Angular, AWS, GCP, and Docker.
-
-</details>
-
-<details>
-<summary><strong>Lindustries Tech Ltd · Full Stack Developer</strong> — Jun 2023–May 2024</summary>
-
-- Architected an XRP Ledger NFT marketplace for tokenizing real-world assets.
-- Built Go and Python/FastAPI microservices for blockchain transactions and decentralized asset management.
-- Developed BlockRecruit.io with decentralized identity verification and smart-contract-based credentials.
-- Integrated XRPL.js, IPFS metadata, Next.js, and Capacitor for web and mobile experiences.
-- Contributed to work recognized with a **Ripple grant** for innovative asset tokenization.
-
-</details>
-
-<details>
-<summary><strong>Freelance Full Stack Developer · Self-employed</strong> — Oct 2022–Jun 2023</summary>
-
-Delivered **4+ full-stack production applications** across fleet management, education, mentorship, and AI-driven analytics, owning requirements, implementation, deployment, and support.
-
-</details>
-
-<details>
-<summary><strong>HSBC Bank · Full Stack Developer</strong> — Sep 2020–Sep 2022</summary>
-
-- Built Java/Spring Boot microservices and Angular/React dashboards for financial-data workflows.
-- Optimized relational schemas and SQL queries supporting ETL and internal reporting.
-- Reduced manual resource-cleanup intervention by **60%**.
-- Supported production systems under a **99.9% uptime SLA** and 24/7 on-call rotation.
-
-</details>
+**Languages & UI:** Python · TypeScript · JavaScript · React · Flutter · C# · Rust ·
+**Data & platforms:** Jupyter · .NET · Node.js · Django · Docker · GitHub Actions ·
+**Emerging systems:** Solana · Ethereum · machine learning · computer vision
 
 ## Selected work
 
@@ -150,94 +109,73 @@ Delivered **4+ full-stack production applications** across fleet management, edu
 <tr>
 <td width="50%" valign="top">
 
-### [Impact Staking Platforms](https://impactstake.com/)
+### [SightLine](https://github.com/avrulesyou/SightLine)
 
-Institutional staking platforms built for mission-driven organizations and community participation.
+A DePIN task network for collecting verifiable real-world data with a
+trustless public-on-reject mechanism on Solana Seeker.
 
-- Ethereum validator and staking infrastructure
-- Next.js, Nest.js, Python/FastAPI
-- GraphQL indexing and analytics
-- Reward distribution integrating Lido and AAVE
+- React Native and Expo
+- Solana wallet and escrow flows
+- Camera, audio, and geolocation proofs
 
 </td>
 <td width="50%" valign="top">
 
-### [Launchnodes Staking UI](https://stakingui.launchnodes.com/)
+### [Fraud detection with PyOD](https://github.com/avrulesyou/assignment4-unsupervised_deep_learning)
 
-AWS/GCP Marketplace product for self-hosted Ethereum validator node management.
+An unsupervised learning experiment that uses an AutoEncoder to detect
+anomalous credit-card transactions from reconstruction error.
 
-- Go and Nest.js backend services
-- Angular and React interfaces
-- Cloud deployment and operator workflows
-- Institutional infrastructure experience
+- Python and PyOD
+- AutoEncoder-based anomaly detection
+- Evaluation-oriented data workflow
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Real-world asset marketplace
+### [Location Heatmap Tracker](https://github.com/avrulesyou/location-tracker)
 
-An XRP Ledger marketplace for tokenizing real-world assets.
+A cross-platform .NET MAUI application for tracking location and visualizing
+movement as a real-time heatmap.
 
-- XRPL.js transaction flows
-- IPFS-backed metadata
-- Go and Python/FastAPI services
-- Next.js and Capacitor applications
+- .NET MAUI and C#
+- Local SQLite persistence
+- Android, iOS, Windows, and macOS targets
 
 </td>
 <td width="50%" valign="top">
 
-### AI & product engineering
+### [Python Q&amp;A Chatbot](https://github.com/avrulesyou/chatbot)
 
-Full-stack applications spanning predictive analytics, learning platforms, fleet safety, and mentorship.
+A hands-on conversational assistant built to explore practical Python,
+Django, and ChatterBot workflows.
 
-- AI-driven business intelligence
-- Real-time GPS and safety analytics
-- Video learning and assessments
-- Web, Android, and iOS delivery
+- Python and Django
+- Terminal-first interaction
+- Structured conversational flows
 
 </td>
 </tr>
 </table>
-
-## Technology landscape
-
-<div align="center">
-
-### AI · Cloud · Backend
-
-<img src="https://skillicons.dev/icons?i=python,go,rust,ts,js,java,nodejs,fastapi,spring,kafka,postgres,redis,docker,kubernetes,aws,gcp,azure,terraform&perline=9" alt="Python, Go, Rust, TypeScript, JavaScript, Java, Node.js, FastAPI, Spring, Kafka, PostgreSQL, Redis, Docker, Kubernetes, AWS, GCP, Azure, Terraform">
-
-### Web · Blockchain · Security
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,angular,tailwind,solidity,ethereum,solana,graphql,githubactions,ipfs&perline=10" alt="React, Next.js, Angular, Tailwind CSS, Solidity, Ethereum, Solana, GraphQL, GitHub Actions, IPFS">
-
-</div>
-
-## Education
-
-- **M.S. Computer Science**, University of the Cumberlands · May 2025–Dec 2026 · GPA **3.9**
-- **B.E. Computer Engineering**, Pune Institute of Computer Technology · Jul 2016–Jul 2020 · GPA **3.67/4.0**
 
 ## GitHub activity
 
 <div align="center">
 
 <a href="https://github.com/avrulesyou?tab=followers"><img src="https://img.shields.io/github/followers/avrulesyou?label=Followers&style=for-the-badge&logo=github&logoColor=white&color=2563eb" alt="GitHub followers"></a>
-<a href="https://github.com/avrulesyou?tab=repositories"><img src="https://img.shields.io/github/repos/avrulesyou?label=Public%20repositories&style=for-the-badge&logo=github&logoColor=white&color=0891b2" alt="Public GitHub repositories"></a>
+<a href="https://github.com/avrulesyou?tab=repositories"><img src="https://img.shields.io/github/repos/avrulesyou?label=Public%20repositories&style=for-the-badge&logo=github&logoColor=white&color=0891b2" alt="Public repositories"></a>
 <a href="https://github.com/avrulesyou?tab=stars"><img src="https://img.shields.io/github/stars/avrulesyou?label=Stars%20received&style=for-the-badge&logo=github&logoColor=white&color=7c3aed" alt="GitHub stars received"></a>
 
-<br>
 </div>
 
-## Enter the workshop
+## The Ember Forge
 
 <div align="center">
 
-### ⚡ The Ember Forge
-
-I made a tiny browser game for the profile: guide a dragon through a living cave, gather embers, and keep the forge alive.
+I made a tiny browser game for the profile: guide a dragon through a living
+cave, gather embers, and keep the story alive.
 
 <a href="https://avrulesyou.github.io/avrulesyou/game.html"><img src="assets/badge-play.svg" alt="Play The Ember Forge"></a>
 
@@ -246,26 +184,30 @@ I made a tiny browser game for the profile: guide a dragon through a living cave
 
 </div>
 
-## What I value
+## The route so far
 
-```text
-Make complex systems understandable.
-Build for reliability, security, and real users.
-Prefer measurable outcomes over impressive-sounding claims.
-Keep learning at the edge of AI and decentralized infrastructure.
-```
+**2016–now** software engineering, AI learning, data experiments, blockchain,
+and product building
 
-## Let's connect
+<details>
+<summary>About this atlas</summary>
 
-I am open to conversations about **creative engineering, AI applications, developer platforms, blockchain systems, and smart-contract security**.
+The artwork is original SVG, inspired by visual storytelling and field
+cartography. The data-driven images are generated with dependency-free Python
+from aggregate GitHub calendar data. The explorer is designed for GitHub Pages.
+
+</details>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img alt="To be continued. The next chapter is useful software." src="assets/footer-light.svg" width="100%">
+</picture>
+
+## Connect
 
 <div align="center">
 
 <a href="mailto:createwithav@gmail.com"><img src="https://img.shields.io/badge/Email-createwithav%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Abhishek"></a>
 <a href="https://www.linkedin.com/in/ritetoav/"><img src="https://img.shields.io/badge/LinkedIn-ritetoav-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile"></a>
-
-<br><br>
-
-<img src="assets/profile-footer.svg" alt="">
 
 </div>
